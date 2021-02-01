@@ -1,0 +1,387 @@
+:root {
+  --list: #fafafa;
+  --headline-color: rgba(0,0,0,.7);
+  --bg-color: #fafafa;
+}
+
+
+.pic {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.halls-link_plaza {
+  background-image: url(../img/Plaza.png);
+}
+
+.halls-link_loft {
+  background-image: url(../img/Loft.png);
+}
+
+.halls-link_royal {
+  background-image: url(../img/Royal.png);
+}
+
+.halls-link_light {
+  background-image: url(../img/Light.png);
+}
+
+.halls-link_fashion {
+  background-image: url(../img/Fashion.png);
+}
+
+.halls-link_dressingRoom {
+  background-image: url(../img/DressingRoom.png);
+}
+
+.halls-picture {
+  position: relative;
+  height: 165px;
+  background-size: cover;
+  z-index: 1;
+
+  transform: scale(1);
+  transition: all 0.3S;
+}
+
+.halls-picture:hover {
+  z-index: 2;
+  transform: scale(1.25);
+  transition: all 0.3S;
+}
+
+/*plaza hall*/
+.plaza-picture_1 {
+  background-image: url(../img/Halls/Plaza/plaza1.jpg);
+}
+
+.plaza-picture_2 {
+  background-image: url(../img/Halls/Plaza/plaza2.jpg);
+}
+
+.plaza-picture_3 {
+  background-image: url(../img/Halls/Plaza/plaza3.jpg);
+}
+
+.plaza-picture_4{
+  background-image: url(../img/Halls/Plaza/plaza4.jpg);
+
+}
+
+.plaza-picture_5 {
+  background-image: url(../img/Halls/Plaza/plaza5.jpg);
+}
+
+.plaza-picture_6 {
+  background-image: url(../img/Halls/Plaza/plaza6.jpg);
+}
+
+.plaza-picture_7 {
+  background-image: url(../img/Halls/Plaza/plaza7.jpg);
+}
+
+.plaza-picture_8 {
+  background-image: url(../img/Halls/Plaza/plaza8.jpg);
+}
+
+.plaza-picture_9 {
+  background-image: url(../img/Halls/Plaza/plaza9.jpg);
+}
+
+.plaza-picture_10 {
+  background-image: url(../img/Halls/Plaza/plaza10.jpg);
+}
+
+.plaza-picture_11 {
+  background-image: url(../img/Halls/Plaza/plaza11.jpg);
+}
+
+.plaza-picture_12 {
+  background-image: url(../img/Halls/Plaza/plaza12.jpg);
+}
+
+
+/*loft hall*/
+.loft-picture_1 {
+  background-image: url(../img/Halls/Loft/loft1.jpg);
+}
+
+.loft-picture_2 {
+  background-image: url(../img/Halls/Loft/loft2.jpg);
+}
+
+.loft-picture_3 {
+  background-image: url(../img/Halls/Loft/loft3.jpg);
+}
+
+.loft-picture_4{
+  background-image: url(../img/Halls/Loft/loft4.jpg);
+
+}
+
+.loft-picture_5 {
+  background-image: url(../img/Halls/Loft/loft5.jpg);
+}
+
+.loft-picture_6 {
+  background-image: url(../img/Halls/Loft/loft6.jpg);
+}
+
+.loft-picture_7 {
+  background-image: url(../img/Halls/Loft/loft7.jpg);
+}
+
+.loft-picture_8 {
+  background-image: url(../img/Halls/Loft/loft8.jpg);
+}
+
+.loft-picture_9 {
+  background-image: url(../img/Halls/Loft/loft9.jpg);
+}
+
+.loft-picture_10 {
+  background-image: url(../img/Halls/Loft/loft10.jpg);
+}
+
+.loft-picture_11 {
+  background-image: url(../img/Halls/Loft/loft11.jpg);
+}
+
+.loft-picture_12 {
+  background-image: url(../img/Halls/Loft/loft12.jpg);
+}
+
+/*royal hall*/
+.royal-picture_1 {
+  background-image: url(../img/Halls/Royal/royal1.jpg);
+}
+
+.royal-picture_2 {
+  background-image: url(../img/Halls/Royal/royal2.jpg);
+}
+
+.royal-picture_3 {
+  background-image: url(../img/Halls/Royal/royal3.jpg);
+}
+
+.royal-picture_4{
+  background-image: url(../img/Halls/Royal/royal4.jpg);
+
+}
+
+.royal-picture_5 {
+  background-image: url(../img/Halls/Royal/royal5.jpg);
+}
+
+.royal-picture_6 {
+  background-image: url(../img/Halls/Royal/royal6.jpg);
+}
+
+.royal-picture_7 {
+  background-image: url(../img/Halls/Royal/royal7.jpg);
+}
+
+.royal-picture_8 {
+  background-image: url(../img/Halls/Royal/royal8.jpg);
+}
+
+.royal-picture_9 {
+  background-image: url(../img/Halls/Royal/royal9.jpg);
+}
+
+.royal-picture_10 {
+  background-image: url(../img/Halls/Royal/royal10.jpg);
+}
+
+.royal-picture_11 {
+  background-image: url(../img/Halls/Royal/royal11.jpg);
+}
+
+.royal-picture_12 {
+  background-image: url(../img/Halls/Royal/royal12.jpg);
+}
+
+
+/*light picture*/
+.light-picture_1 {
+  background-image: url(../img/Halls/Light/light1.jpg);
+}
+
+.light-picture_2 {
+  background-image: url(../img/Halls/Light/light2.jpg);
+}
+
+.light-picture_3 {
+  background-image: url(../img/Halls/Light/light3.jpg);
+}
+
+.light-picture_4{
+  background-image: url(../img/Halls/Light/light4.jpg);
+
+}
+
+.light-picture_5 {
+  background-image: url(../img/Halls/Light/light5.jpg);
+}
+
+.light-picture_6 {
+  background-image: url(../img/Halls/Light/light6.jpg);
+}
+
+.light-picture_7 {
+  background-image: url(../img/Halls/Light/light7.jpg);
+}
+
+.light-picture_8 {
+  background-image: url(../img/Halls/Light/light8.jpg);
+}
+
+.light-picture_9 {
+  background-image: url(../img/Halls/Light/light9.jpg);
+}
+
+.light-picture_10 {
+  background-image: url(../img/Halls/Light/light10.jpg);
+}
+
+.light-picture_11 {
+  background-image: url(../img/Halls/Light/light11.jpg);
+}
+
+.light-picture_12 {
+  background-image: url(../img/Halls/Light/light12.jpg);
+}
+
+.fashion-picture {
+  background-image: url(../img/Halls/Fashion.png);
+  background-size: contain;
+  height: 500px;
+}
+
+/*fashion hall*/
+.fashion-picture_1 {
+  background-image: url(../img/Halls/Fashion/fashion1.jpg);
+}
+
+.fashion-picture_2 {
+  background-image: url(../img/Halls/Fashion/fashion2.jpg);
+}
+
+.fashion-picture_3 {
+  background-image: url(../img/Halls/Fashion/fashion3.jpg);
+}
+
+.fashion-picture_4{
+  background-image: url(../img/Halls/Fashion/fashion4.jpg);
+
+}
+
+.fashion-picture_5 {
+  background-image: url(../img/Halls/Fashion/fashion5.jpg);
+}
+
+.fashion-picture_6 {
+  background-image: url(../img/Halls/Fashion/fashion6.jpg);
+}
+
+.fashion-picture_7 {
+  background-image: url(../img/Halls/Fashion/fashion7.jpg);
+}
+
+.fashion-picture_8 {
+  background-image: url(../img/Halls/Fashion/fashion8.jpg);
+}
+
+.fashion-picture_9 {
+  background-image: url(../img/Halls/Fashion/fashion9.jpg);
+}
+
+.fashion-picture_10 {
+  background-image: url(../img/Halls/Fashion/fashion10.jpg);
+}
+
+.fashion-picture_11 {
+  background-image: url(../img/Halls/Fashion/fashion11.jpg);
+}
+
+.fashion-picture_12 {
+  background-image: url(../img/Halls/Fashion/fashion12.jpg);
+}
+
+.dressingRoom-picture {
+  background-image: url(../img/Halls/DressingRoom.png);
+  background-size: contain;
+  height: 500px;
+}
+
+
+/*dressing Room hall*/
+.dressingRoom-picture_1 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom1.jpg);
+}
+
+.dressingRoom-picture_2 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom2.jpg);
+}
+
+.dressingRoom-picture_3 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom3.jpg);
+}
+
+.dressingRoom-picture_4{
+  background-image: url(../img/Halls/DressingRoom/dressingRoom4.jpg);
+
+}
+
+.dressingRoom-picture_5 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom5.jpg);
+}
+
+.dressingRoom-picture_6 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom6.jpg);
+}
+
+.dressingRoom-picture_7 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom7.jpg);
+}
+
+.dressingRoom-picture_8 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom8.jpg);
+}
+
+.dressingRoom-picture_9 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom9.jpg);
+}
+
+.dressingRoom-picture_10 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom10.jpg);
+}
+
+.dressingRoom-picture_11 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom11.jpg);
+}
+
+.dressingRoom-picture_12 {
+  background-image: url(../img/Halls/DressingRoom/dressingRoom12.jpg);
+}
+
+.headline {
+  color: var(--headline-color);
+}
+
+.no-flex-wrap {
+  flex-wrap: nowrap !important;
+}
+
+.list-group-hover li:nth-child(odd){
+  background: var(--list);
+}
+.footer {
+
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}

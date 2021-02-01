@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Document</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" rel="stylesheet">
+</head>
+<body>
+
+<div class="d-flex align-items-start">
+    <aside aria-orientation="vertical" class="nav flex-column nav-pills mx-3" id="v-pills-tab" role="tablist">
+        <a aria-controls="v-pills-home" aria-selected="true" class="nav-link active" data-bs-toggle="pill" href="#v-pills-home"
+           id="v-pills-home-tab" role="tab">Hall</a>
+
+        <a aria-controls="v-pills-profile" aria-selected="false" class="nav-link" data-bs-toggle="pill" href="#v-pills-profile"
+           id="v-pills-profile-tab" role="tab">Hall Gallery</a>
+
+        <a aria-controls="v-pills-messages" aria-selected="false" class="nav-link" data-bs-toggle="pill" href="#v-pills-messages"
+           id="v-pills-messages-tab" role="tab">Contacts</a>
+    </aside>
+
+
+    <div class="tab-content" id="v-pills-tabContent">
+        <div aria-labelledby="v-pills-home-tab" class="tab-pane fade show active" id="v-pills-home" role="tabpanel">
+
+            <div class="accordion" id="accordionHall">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="Hall">
+                        <button aria-controls="collapseHall" aria-expanded="true" class="accordion-button"
+                                data-bs-target="#collapseHall" data-bs-toggle="collapse" type="button">
+                            Hall
+                        </button>
+                    </h2>
+                    <div id="collapseHall" class="accordion-collapse collapse show" aria-labelledby="Hall" data-bs-parent="#accordionHall">
+                        <div class="accordion-body">
+
+                            <button type="button" class="btn btn-success">Add table</button>
+                            <button type="button" class="btn btn-danger">Remove table</button>
+
+                            <input class="form-control" type="text" placeholder="id" aria-label="Disabled input example" disabled readonly>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="name" aria-label="name" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">change</button>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="description" aria-label="description" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">change</button>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="weekdayCost" aria-label="weekdayCost" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">change</button>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="weekendCost" aria-label="weekendCost" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">change</button>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="image" aria-label="image" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">change</button>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="imageLink" aria-label="imageLink" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">change</button>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="timeStatus" aria-label="timeStatus" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">change</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div aria-labelledby="v-pills-profile-tab" class="tab-pane fade" id="v-pills-profile" role="tabpanel">
+
+            <div class="accordion" id="accordionHallGallery">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingHallGallery">
+                        <button aria-controls="collapseHallGallery" aria-expanded="true" class="accordion-button"
+                                data-bs-target="#collapseHallGallery" data-bs-toggle="collapse" type="button">
+                            Hall Gallery
+                        </button>
+                    </h2>
+                    <div id="collapseHallGallery" class="accordion-collapse collapse show" aria-labelledby="headingHallGallery" data-bs-parent="#accordionHallGallery">
+                        <div class="accordion-body">
+
+                            <button type="button" class="btn btn-success">Add table</button>
+                            <button type="button" class="btn btn-danger">Remove table</button>
+
+                            <input class="form-control" type="text" placeholder="id" aria-label="Disabled input example" disabled readonly>
+                            <input class="form-control" type="text" placeholder="hall_id" aria-label="Disabled input example" disabled readonly>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="role" aria-label="role" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">change</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div aria-labelledby="v-pills-messages-tab" class="tab-pane fade" id="v-pills-messages" role="tabpanel">
+
+            <div class="accordion" id="accordionContact">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingContact">
+                        <button aria-controls="collapseContact" aria-expanded="true" class="accordion-button"
+                                data-bs-target="#collapseContact" data-bs-toggle="collapse" type="button">
+                            Contact
+                        </button>
+                    </h2>
+                    <div id="collapseContact" class="accordion-collapse collapse show" aria-labelledby="headingContact" data-bs-parent="#accordionContact">
+                        <div class="accordion-body">
+
+                            <button type="button" class="btn btn-success">Add table</button>
+                            <button type="button" class="btn btn-danger">Remove table</button>
+
+                            <input class="form-control" type="text" placeholder="id" aria-label="Disabled input example" disabled readonly>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="number" aria-label="number" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">change</button>
+                                </div>
+                            </div>
+
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="description" aria-label="description" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">change</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script crossorigin="anonymous"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

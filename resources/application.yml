@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/postgres?currentSchema=photostudio
+    username: postgres
+    password: 113
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    generate-ddl: true
+  thymeleaf:
+    prefix: classpath:/frontend/
+    suffix: .html
